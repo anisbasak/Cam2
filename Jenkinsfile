@@ -14,8 +14,8 @@ pipeline {
    stage('Android Build') {
    steps {
     //   sh 'expo login -u anisbasak -p 1248pichuling' 
-    //   sh 'expo build:android'
-    sh 'expo start'
+      sh 'expo build:android --offline'
+    // sh 'expo start'
    }
   }
 
