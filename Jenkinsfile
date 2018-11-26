@@ -13,9 +13,9 @@ pipeline {
 
    stage('Android Build') {
    steps {
-    //   sh 'expo login -u anisbasak -p 1248pichuling' 
-    //   sh 'cd android && ./gradlew gradleRelease'
-    sh 'npm start'
+      sh 'expo login -u anisbasak -p 1248pichuling' 
+      sh 'cd android && ./gradlew gradleRelease'
+    // sh 'npm start'
    }
   }
 
